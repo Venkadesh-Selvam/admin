@@ -1,0 +1,78 @@
+body{
+    font-family: Roboto,Sans-Serif;
+}
+.trigger{
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.trigger:hover{
+    color: #1890ff;
+}
+.logo{
+    height: 64px;
+    margin: 0;
+}
+.ant-layout{
+    min-height: 100vh !important;
+}
+.ant-layout-sider{
+    flex: 0 0 200px !important;
+    max-width: 200px!important;
+    min-width: 200px!important;
+    width: 200px!important;
+}
+.ant-layout-sider-collapsed{
+    flex: 0 0 80px!important;
+    max-width: 80px!important;
+    min-width: 80px!important;
+    width: 80px!important;
+}
+.sm-logo{
+    display: none;
+}
+.ant-layout-sider-collapsed .sm-logo{
+    display: block;
+    font-size: 5;
+    margin-left: 30px;
+}
+.ant-layout-sider-collapsed .lg-logo{
+    display: none;
+}
+main{
+    overflow: scroll;
+    height: 65vh;
+    background: transparent !important;
+}
+
+main::-webkit-scrollbar{
+    width: 0px;
+}
+.ant-menu-title-content{
+    font-size: 12px;
+}
+.search{
+    height: 25px;
+    border: 0;
+    border-color: white;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+}
+.hello{
+  font-size: 20px; 
+  font-weight: 600;
+}
+.searchBar{
+    margin-right: 0px;
+    background: whitesmoke;
+}
+.hand{
+   color:  #ffac00;
+   height: 95px !important;
+   width: 20px !important;
+}
+
+

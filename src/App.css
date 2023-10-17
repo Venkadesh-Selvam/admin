@@ -1,0 +1,170 @@
+root{
+  --color-212529: #212529;
+  --color-ffd333: #ffd333;
+  --color-47ad24: #47ad24;
+  --color-e52e2e: #e52e2e;
+  --color-828599: #828599;
+  --color-3d464d: #3d464d;
+  --color-c3d4da: #c3d4da;
+}
+
+.form-control{
+  box-shadow: none;
+  border-color: var(--color-c3d4da);
+}
+
+.title{
+  font-size: 28px;
+  font-family: Roboto !important;
+  color: var(--color-212529);
+}
+
+.sub-title{
+  font-size: 24px;
+  font-family: Roboto !important;
+}
+
+.descrip1{
+  font-size: 13px;
+  font-family: Roboto !important;
+  color: green;
+}
+
+.descrip2{
+  font-size: 13px;
+  font-family: Roboto !important;
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+  font-family: Roboto, sans-serif;
+}
+
+.dashboardInfo{
+  display: flex;
+   justify-content: center;
+    flex-grow: 2;
+    background: white;
+    padding: 5px rounded;
+}
+
+
+
+
+
+.circle1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background:  lightgreen;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  z-index: .1;
+}
+.dashIcon1{
+  height: 20px;
+  width: 20px;
+  margin-top: 35% ;
+  margin-left: 35% ;
+  color: darkgreen;
+}
+
+.circle2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background: violet ;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  z-index: .1;
+}
+.dashIcon2{
+  height: 20px;
+  width: 20px;
+  margin-top: 35% ;
+  margin-left: 35% ;
+  color: darkmagenta;
+}
+
+.circle3{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background:  skyblue ;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  z-index: .1;
+}
+.dashIcon3{
+  height: 20px;
+  width: 20px;
+  margin-top: 35% ;
+  margin-left: 35% ;
+  color: darkblue;
+}
+
+.circle4{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background:  radial-gradient( circle farthest-corner at 10% 20%, #f96ef5 0%, #f5abcb 90% ) ;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  z-index: .1;
+}
+.dashIcon4{
+  height: 20px;
+  width: 20px;
+  margin-top: 35% ;
+  margin-left: 35% ;
+  color: red;
+}
+
+.dashStatus{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.percentGreen{
+  font-size: 10px;
+  color: green;
+  font-weight: 400;
+}
+
+.percentRed{
+  font-size: 10px;
+  color: red;
+  font-weight: 400;
+}
+.month{
+  font-size: 10px;
+}
+
+.quill{
+  background: white;
+}
